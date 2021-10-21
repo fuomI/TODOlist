@@ -1,0 +1,18 @@
+TODO-list - Joni Jansson
+
+My application is a TODO-list that uses JavaScript, HTML and CSS.
+
+User can add tasks, mark them complete by clicking tasks or deleting tasks clicking delete button.
+
+Tasks are stored to localStorage and they are brought back on each page load. Completion of tasks is not stored to localStorage sadly.
+
+Infobox containing information about how many active, completed or overall tasks there are is attached below the TODO-list. 
+
+UI of the site is niceish, most of the requirements are met and site functions well. I'd evaluate the site as 27/30, because completed
+tasks are not saved to the localStorage.
+
+Link to github: https://github.com/fuomI/TODOlist/tree/main
+
+
+
+
