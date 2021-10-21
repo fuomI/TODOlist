@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>TODO-list</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body onload="pageStart()">
+
+        <!-- Credit and link to the owner of the background -->
+        <div id="creditDiv"><a href="https://www.pexels.com/photo/tear-drops-macro-photography-696644/" id="creditText">Photo by Gabriel Peter from Pexels</a></div>
+
+
+        <!-- DIV contains Heading for the TODO-list aswell as an inputfield and an add button. -->
+        <div id="headingDiv">
+            <h1 id="todoHeading">TODO-list</h1>
+            <form id="todoForm">
+            <input type="text" name="taskInput" id="taskInput" placeholder="task...">    
+            <input type="button" id="addButton" value="Add" onclick="return validateAndCreate()">
+            </form> 
+        </div>
+            
+        <!-- The TODO-list -->
+        <div id="listDiv">  
+            <ul id="todoList">
+            </ul>
+        </div>
+        
+        <!-- The infobox -->
+        <div class="grid-container">
+        <div class="grid-item"><p id="activeInfo"></p></div>
+        <div class="grid-item"><p id="completedInfo"></p></div> 
+        <div class="grid-item"><p id="tasksInfo"></p></div>     
+        </div>
+
+    </body>
+    <script src="js/todo.js"></script>
+</html>

@@ -1,0 +1,159 @@
+body {
+    background-image: url("../images/background.jpg");
+    color: rgb(39, 32, 32);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.error {
+    border-color: rgb(255, 0, 0);
+    border-width: 2px;
+}
+
+.show {
+    display: inline;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+  }
+
+ul li {
+    font-size: 1.3vw;
+    list-style-type: none;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 30px;
+    background: #a3b1c4;
+    transition: 0.3s;
+}
+
+ul li:nth-child(odd) {
+    background: #b0c6cc;
+  }
+
+#headingDiv {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 2px;
+    width: 40%;
+    border-color:rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-width: 0px;
+    background-color:rgb(211, 207, 207);
+    border-radius: 3px; 
+}
+
+#listDiv {
+    margin: auto;
+    width: 40%;
+    border-color:rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+}
+
+#todoHeading {
+    padding-top: 20px;
+    font-family: arial, sans-serif;
+    font-size: 1.8vw;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 20px;
+}
+
+#taskInput {
+    position: relative;
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 22px;
+    margin-right: 0px;
+    width: 30%;
+    font-size: 1.3vw;
+    padding: 3px;
+}
+
+#addButton {
+    padding: 3px;
+    margin-top: 22px;
+    margin-left: 0px;
+    cursor: pointer;
+    position: relative;
+    font-family: verdana;
+    color: #000000;
+    font-size: 1.3vw;
+    border: 1px solid #000000;
+    background: #ffffff;
+
+}
+
+.deleteBox {
+    display: none;
+    position: relative;
+    margin-left: 5%;
+    cursor: pointer;
+    color: #000000;
+    padding: none;
+    border: none;
+    background: none;
+    transition: 0.5;
+   /* font-family: verdana;
+    font-size: 1.3vw; */
+}
+.deleteBox:hover {
+    color: red;
+}
+
+ul li:hover {
+    background-color:rgb(190, 188, 188)
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    width: 40%;
+    text-align:center;
+}
+
+.grid-item {
+    text-align: center;
+    font-size: 1.3vw;
+    margin:auto;
+}
+
+.listItems:hover .deleteBox {
+    display: inline-block;
+}
+
+.listItems {
+    position: relative;
+    white-space: normal;
+    overflow: hidden;
+}
+
+#creditDiv {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width: 40%;
+}
+
+#creditText {
+    color: white;
+    font-size: 0.8vw;
+    font-style: normal;
+}
