@@ -32,7 +32,7 @@ You can implement buttons (also shown at the bottom of the image) that only disp
 
 // Credits
 
-HTML background: Photo by Gabriel Peter from Pexels - https://www.pexels.com/photo/tear-drops-macro-photography-696644/
+Background picture: Photo by Gabriel Peter from Pexels - https://www.pexels.com/photo/tear-drops-macro-photography-696644/
 
 
 
