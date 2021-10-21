@@ -13,6 +13,8 @@ tasks are not saved to the localStorage.
 
 Link to github: https://github.com/fuomI/TODOlist/tree/main
 
+App's Netlify link: https://app.netlify.com/sites/loving-hypatia-2887c5/overview
+
 
 
 
