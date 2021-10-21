@@ -19,7 +19,7 @@ The source code of the application has been published on GitHub. To do this, cre
 The application is published on Netlify. (NOTE: The HTML page must be named index.html)
 
 1. Todo -list
-2. 
+
 Design and implement a simple TODO application.
 
 Application requirements:
