@@ -1,16 +1,33 @@
-# TODOlist
-My first JavaScript project. One of the projects made during Laurea's (UAS) "Dynamic apps with JavaScript" -course. 
+# TODO-list
 
-TODO-list - Joni Jansson
+## Project description
 
-My application is a TODO-list that uses JavaScript, HTML and CSS.
+My first JavaScript project that I made during Laurea's (UAS) "Dynamic apps with JavaScript" -course. We had multiple choices and I ended up doing a TODO-list.
 
-User can add tasks, mark them complete by clicking tasks or deleting tasks clicking delete button.
+## Features
 
-Tasks are stored to localStorage and they are brought back on each page load. Completion of tasks is not stored to localStorage sadly.
+- User can add tasks
+- User can complete tasks
+- User can delete tasks
+- LocalStorage tracks tasks for next session
+- From infobox user can see the number of tasks, deleted, completed
 
-Infobox containing information about how many active, completed or overall tasks there are is attached below the TODO-list. 
 
-App is published also on Netlify: https://loving-hypatia-2887c5.netlify.app
+## Key focus
+
+Our teacher demanded following things:
+
+- Use JavaScript DOM
+- Use LocalStorage or other means to store session
+- Make it look nice (not a requirement tho)
+
+## "Languages"
+
+- JavaScript (vanilla)
+- HTML
+- CSS
 
 
+## How to run?
+
+Application is published on Netlify: https://loving-hypatia-2887c5.netlify.app
