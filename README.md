@@ -21,7 +21,7 @@ Our teacher demanded following things:
 - Use LocalStorage or other means to store session
 - Make it look nice (not a requirement tho)
 
-## "Languages"
+## Languages
 
 - JavaScript (vanilla)
 - HTML
